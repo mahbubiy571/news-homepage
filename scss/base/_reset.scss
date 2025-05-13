@@ -26,11 +26,12 @@ body {
     flex-direction: column;
     height: 100%;
     font-family: "Inter","sans-serif";
+    overflow-x: hidden;
 }
 
 img {
+    display: flex;
     object-fit: cover;
-    border: 0;
 }
 
 main {
@@ -46,6 +47,6 @@ h1 {
     max-width: 1540px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
