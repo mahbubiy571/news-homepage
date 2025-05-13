@@ -2,7 +2,8 @@
 *::after,
 *::before {
     margin: 0;
-    padding: 0;box-sizing: border-box;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -17,13 +18,19 @@ ol {
 }
 
 a {
-    text-emphasis: none;
+    text-decoration: none;
 }
 
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    font-family: "Inter","sans-serif";
+}
+
+img {
+    object-fit: cover;
+    border: 0;
 }
 
 main {
@@ -36,7 +43,7 @@ h1 {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1540px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 5rem;
