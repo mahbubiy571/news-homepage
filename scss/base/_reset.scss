@@ -21,6 +21,27 @@ a {
     text-decoration: none;
 }
 
+.btn {
+    width: 185px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    letter-spacing: 4.38px;
+    transition: 0.3s;
+    padding: 1.3rem 3.5rem 1.1rem 3.1rem;
+    border: 0;
+ }
+ 
+ .btn__orange {
+     background-color:#F15D51;
+     color:#FFFDFA;
+ 
+     &:hover {
+         background-color:#00001A;
+     }
+ }
+
 body {
     display: flex;
     flex-direction: column;
@@ -47,6 +68,6 @@ h1 {
     max-width: 1540px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-left: 16.5rem;
+    padding-right: 16.5rem;
 }
