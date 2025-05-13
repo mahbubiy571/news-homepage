@@ -92,3 +92,50 @@
     height: 1px;
     background-color:#5E607A;
 }
+
+
+@media screen and (max-width:400px) { 
+    .site__hero {
+        margin-bottom: 6.4rem;
+    }
+    
+    .hero__container {
+       display: flex;
+       flex-direction: column;
+       gap: 6.4rem;
+    }
+    
+    .hero__content {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image {
+        width: 34.3rem;
+        height: 30rem;
+    }
+    
+    .main__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+    }
+    
+    .title-container__heading {
+        font-weight: 800;
+        font-size: 4rem;
+        line-height: 4rem;
+        color:#00001A;
+        width: 300px;
+    }
+    
+    .text-button__container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .text__descraption-content {
+        margin-bottom: 2.4rem;
+    }
+    
+}
